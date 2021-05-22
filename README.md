@@ -1,4 +1,7 @@
+
+
 # MPII-and-COCO-annotation-format
+
 Visualized MPII and COCO annotation format.
 
 Keypoints are fetched from MPII&COCO val annotation json
@@ -10,10 +13,14 @@ Keypoints are fetched from MPII&COCO val annotation json
   >     [739.0207, 197.2623], [745.9793, 132.7377], [639.0, 302.0], 
   >     [684.0, 276.0], [692.0, 217.0], [782.0, 215.0], [805.0, 280.0], 
   >     [850.0, 308.0]]
+  
 + 原图：
-![000003072.jpg](000003072.jpg)
+
+  ![000003072.jpg](000003072.jpg)
+
 + 输出图：
-![vised_000003072.jpg](vised_000003072.jpg)
+
+  ![vised_000003072.jpg](vised_000003072.jpg)
 
 
 ## 2. COCO
@@ -21,7 +28,11 @@ Keypoints are fetched from MPII&COCO val annotation json
     > [132,261,2,139,254,2,126,254,2,147,257,2,117,258,2,171,299,2,104,303,2,
     > 177,351,2,98,360,2,182,398,2,94,414,2,164,406,2,121,407,2,170,489,2,12
     > 4,488,2,182,570,2,124,569,2]
+    
 + 原图
-![000000017905.jpg](000000017905.jpg)
+
+  ![000000017905.jpg](000000017905.jpg)
+
 + 输出图
-![vised_000000017905.jpg](vised_000000017905.jpg)
+
+  ![vised_000000017905.jpg](vised_000000017905.jpg)
