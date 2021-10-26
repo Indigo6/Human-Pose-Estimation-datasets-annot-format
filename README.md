@@ -16,11 +16,11 @@ Keypoints are fetched from MPII&COCO val annotation json
   
 + 原图：
 
-  ![000003072.jpg](000003072.jpg)
+  ![000003072.jpg](MPII/000003072.jpg)
 
 + 输出图：
 
-  ![vised_000003072.jpg](vised_000003072.jpg)
+  ![vised_000003072.jpg](MPII/vised_000003072.jpg)
 
 
 ## 2. COCO
@@ -31,8 +31,8 @@ Keypoints are fetched from MPII&COCO val annotation json
     
 + 原图
 
-  ![000000017905.jpg](000000017905.jpg)
+  ![000000017905.jpg](COCO/000000017905.jpg)
 
 + 输出图
 
-  ![vised_000000017905.jpg](vised_000000017905.jpg)
+  ![vised_000000017905.jpg](COCO/vised_000000017905.jpg)

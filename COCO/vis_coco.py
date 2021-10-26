@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     for i, key in enumerate(label):
         cv2.circle(img, (key[0], key[1]), 3, (0, 0, 255), 2)
-        cv2.putText(img, str(i), (key[0], key[1]), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+        cv2.putText(img, str(i), (key[0], key[1]), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 255, 0), 2)
 
     cv2.imwrite(dst + img_name, img)
     cv2.imshow('src', img)
