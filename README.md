@@ -101,7 +101,7 @@ Keypoints are fetched from MPII&COCO val annotation json
 
 + 输出图
 
-  ![vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg](AI Challenger/vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg)
+  ![vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg](Challenger/vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg)
 
 
 ### 示例2：确认可见性标注格式
@@ -112,4 +112,4 @@ Keypoints are fetched from MPII&COCO val annotation json
 
 + 输出图
 
-  ![vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg](AI Challenger/vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg)
+  ![vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg](Challenger/vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg)
