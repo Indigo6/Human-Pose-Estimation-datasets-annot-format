@@ -1,10 +1,11 @@
 
 
-# MPII-and-COCO-annotation-format
+# Human Pose Estimation datasets annot format
 
-Visualized MPII and COCO annotation format.
 
-Keypoints are fetched from MPII&COCO val annotation json
+Visualized annotation format of Human Pose Estimation datasets, including MPII, COCO, and AI Challenger.
+
+Keypoints are fetched from annotation json.
 
 ## 1. MPII
 + 坐标点：
