@@ -73,22 +73,7 @@ Keypoints are fetched from annotation json.
 + 数据格式
     > "joint_vis": { 1: "visible", 2: "occlude", 3: "invisible"}
     
-    > "keypoints":  {
-            0: "left shoulder",
-            1: "left elbow",
-            2: "left wrist",
-            3: "right shoulder",
-            4: "right elbow",
-            5: "right wrist",
-            6: "left hip",
-            7: "left knee",
-            8: "left ankle",
-            9: "right hip",
-            10: "right knee",
-            11: "right ankle",
-            12: "head tops"
-            13: "upper neck"
-        }
+    > "keypoints": { 0: "right shoulder", 1: "right elbow", 2: "right wrist", 3: "left shoulder", 4: "left elbow", 5: "left wrist", 6: "right hip", 7: "right knee", 8: "right ankle", 9: "left hip", 10: "left knee", 11: "left ankle", 12: "head tops" 13: "upper neck" }
   
   > "skeleton": [
             [12,13],[13,0],[0,1],[1,2],[13,3],[3,4],[4,5],
