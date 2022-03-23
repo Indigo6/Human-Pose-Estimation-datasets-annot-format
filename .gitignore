@@ -78,5 +78,4 @@ target/
 
 *.ipynb
 *.params
-*.json
 *.vscode/
