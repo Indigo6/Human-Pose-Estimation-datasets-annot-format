@@ -62,7 +62,7 @@
 
 + 输出图
 
-  ![vised_000000285138.jpg](COCO/vised_000000285138.jpg)
+  ![vised_000000285138.jpg](COCO/coco_vised_000000285138.jpg)
 
 
 
