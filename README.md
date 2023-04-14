@@ -1,11 +1,8 @@
-
-
 # Human Pose Estimation datasets annot format
 
+**Pelease refer to this article for further guide/cookbook of datasets and download of AIC(AI Challenger):**
 
-Visualized annotation format of Human Pose Estimation datasets, including MPII, COCO, and AI Challenger.
-
-Keypoints are fetched from annotation json.
+[2D多人姿态估计入门指南(0)：数据集使用指南（内含 AI Challenger/AIC 下载与使用指南）](https://zhuanlan.zhihu.com/p/485949832)
 
 ## 1. MPII
 + 坐标点：
@@ -17,7 +14,7 @@ Keypoints are fetched from annotation json.
 
 + 输出图：
 
-  ![vised_000003072.jpg](MPII/vised_000003072.jpg)
+  ![vised_000003072.jpg](MPII/mpii_vised_000003072.jpg)
 
 
 ## 2. COCO
@@ -44,9 +41,8 @@ Keypoints are fetched from annotation json.
             16: "right_ankle"
         },
   
-  > "skeleton": [
-            [16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13], [6,7],[6,8],
-            [7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
+  > "skeleton": [[16, 14], [14, 12], [15, 13], [13, 11], [12, 11], [6, 12], [5, 11], [6, 5], [6, 8],
+             [8, 10], [5, 7], [7, 9], [3, 1], [1, 0], [0, 2], [2, 4]]
 
 ### 示例1：确认特征点位置
 + 坐标点
@@ -54,7 +50,7 @@ Keypoints are fetched from annotation json.
 
 + 输出图
 
-  ![vised_000000017905.jpg](COCO/vised_000000017905.jpg)
+  ![vised_000000017905.jpg](COCO/coco_vised_000000017905.jpg)
 
 
 ### 示例2：确认可见性标注格式
@@ -65,7 +61,7 @@ Keypoints are fetched from annotation json.
 
 + 输出图
 
-  ![vised_000000285138.jpg](COCO/vised_000000285138.jpg)
+  ![vised_000000285138.jpg](COCO/coco_vised_000000285138.jpg)
 
 
 
@@ -87,7 +83,7 @@ Keypoints are fetched from annotation json.
 
 + 输出图
 
-  ![vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg](Challenger/vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg)
+  ![vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg](AI%20Challenger/aic_vised_8776db91659bf1b9abada9bbc9d9f15d0b085642.jpg)
 
 
 ### 示例2：确认可见性标注格式
@@ -98,4 +94,4 @@ Keypoints are fetched from annotation json.
 
 + 输出图
 
-  ![vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg](Challenger/vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg)
+  ![vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg](AI%20Challenger/aic_vised_043758c591b58f39a01648c49b5154ad1e01d400.jpg)
